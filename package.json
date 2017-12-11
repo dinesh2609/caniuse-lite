@@ -30,11 +30,12 @@
   "devDependencies": {
     "all-contributors-cli": "^3.0.7",
     "any-observable": "^0.2.0",
-    "babel-cli": "^6.24.0",
-    "babel-generator": "^6.21.0",
-    "babel-preset-env": "^1.1.8",
-    "babel-register": "^6.18.0",
-    "babel-types": "^6.21.0",
+    "@babel/cli": "^7.0.0-beta.34",
+    "@babel/core": "7.0.0-beta.34",
+    "@babel/generator": "^7.0.0-beta.34",
+    "@babel/preset-env": "^7.0.0-beta.34",
+    "@babel/register": "^7.0.0-beta.34",
+    "@babel/types": "^7.0.0-beta.34",
     "bunyan": "^1.8.10",
     "caniuse-db": "1.0.30000782",
     "del-cli": "^0.2.1",
@@ -55,7 +56,7 @@
   },
   "babel": {
     "presets": [
-      "env"
+      "@babel/preset-env"
     ]
   }
 }
